@@ -1,0 +1,520 @@
+
+        
+    <div class="pageheader">
+      <h2><i class="fa fa-pencil"></i> Form Layouts <span>Subtitle goes here...</span></h2>
+      <div class="breadcrumb-wrapper">
+        <span class="label">You are here:</span>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Bracket</a></li>
+          <li><a href="general-forms.html">Forms</a></li>
+          <li class="active">Form Layouts</li>
+        </ol>
+      </div>
+    </div>
+    
+    <div class="contentpanel">
+      
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <div class="panel-btns">
+            <a href="#" class="panel-close">&times;</a>
+            <a href="#" class="minimize">&minus;</a>
+          </div>
+          <h4 class="panel-title">Inline Form</h4>
+          <p>Basic form with a class name of <code>.form-inline</code>.</p>
+        </div>
+        <div class="panel-body">
+          <form class="form-inline">
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputEmail2">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="exampleInputPassword2">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign In</button>
+            <button type="reset" class="btn btn-default">Reset</button>
+          </form>
+        </div><!-- panel-body -->
+      </div><!-- panel -->
+      
+      <div class="row">
+        <div class="col-md-6">
+          
+          <form id="form1" class="form-horizontal">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="panel-btns">
+                  <a href="#" class="panel-close">&times;</a>
+                  <a href="#" class="minimize">&minus;</a>
+                </div>
+                <h4 class="panel-title">Horizontal Form</h4>
+                <p>Basic form with a class name of <code>.form-horizontal</code>.</p>
+              </div>
+              <div class="panel-body">
+              
+                <div class="form-group">
+                  <label class="col-sm-4 control-label">Name:</label>
+                  <div class="col-sm-8">
+                    <input type="text" name="name" class="form-control" />
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label class="col-sm-4 control-label">Email:</label>
+                  <div class="col-sm-8">
+                    <input type="email" name="email" class="form-control" />
+                  </div>
+                </div>
+              </div><!-- panel-body -->
+              <div class="panel-footer">
+                <button class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-default">Reset</button>
+              </div><!-- panel-footer -->
+            </div><!-- panel-default -->
+          </form>
+            
+        </div><!-- col-md-6 -->
+        
+        <div class="col-md-6">
+          
+          <form id="form2" class="form-horizontal form-bordered">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <div class="panel-btns">
+                  <a href="#" class="panel-close">&times;</a>
+                  <a href="#" class="minimize">&minus;</a>
+                </div>
+                <h4 class="panel-title">Bordered Form</h4>
+                <p>Basic form with a class name of <code>.form-bordered</code>.</p>
+              </div>
+              <div class="panel-body panel-body-nopadding">
+              
+                <div class="form-group">
+                  <label class="col-sm-4 control-label">Name:</label>
+                  <div class="col-sm-8">
+                    <input type="text" name="name" class="form-control" />
+                  </div>
+                </div>
+                
+                <div class="form-group">
+                  <label class="col-sm-4 control-label">Email:</label>
+                  <div class="col-sm-8">
+                    <input type="email" name="email" class="form-control" />
+                  </div>
+                </div>
+              </div><!-- panel-body -->
+              <div class="panel-footer">
+                <button class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-default">Reset</button>
+              </div><!-- panel-footer -->
+            </div><!-- panel-default -->
+          </form>
+            
+        </div><!-- col-md-6 -->
+        
+      </div><!-- row -->
+      
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-btns">
+                <a href="#" class="panel-close">&times;</a>
+                <a href="#" class="minimize">&minus;</a>
+              </div>
+              <h4 class="panel-title">No Label Form</h4>
+              <p>This is an example of a form using a placeholder instead of label.</p>
+            </div>
+            <form>
+            <div class="panel-body">
+              <div class="row row-pad-5">
+                <div class="col-lg-4">
+                  <input type="text" name="name" placeholder="Name" class="form-control" />
+                </div>
+                <div class="col-lg-4">
+                  <input type="email" name="email" placeholder="Email" class="form-control" />
+                </div>
+                <div class="col-lg-4">
+                  <input type="url" name="website" placeholder="Website" class="form-control" />
+                </div>
+              </div><!-- row -->
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div><!-- panel-body -->
+            <div class="panel-footer">
+              <button class="btn btn-primary">Add Comment</button>
+            </div>
+            </form>
+          </div><!-- panel -->
+        </div>
+        
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <div class="panel-btns">
+                <a href="#" class="panel-close">&times;</a>
+                <a href="#" class="minimize">&minus;</a>
+              </div>
+              <h4 class="panel-title">Block Styled Form</h4>
+              <p>This is an example of form with block styled label.</p>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="control-label">Firstname</label>
+                    <input type="text" name="firstname" class="form-control" />
+                  </div>
+                </div><!-- col-sm-6 -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="control-label">Lastname</label>
+                    <input type="text" name="lastname" class="form-control" />
+                  </div>
+                </div><!-- col-sm-6 -->
+              </div><!-- row -->
+              
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="control-label">Email</label>
+                    <input type="email" name="email" class="form-control" />
+                  </div>
+                </div><!-- col-sm-6 -->
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="control-label">Website</label>
+                    <input type="url" name="website" class="form-control" />
+                  </div>
+                </div><!-- col-sm-6 -->
+              </div><!-- row -->
+              
+            </div><!-- panel-body -->
+            <div class="panel-footer">
+              <button class="btn btn-primary">Submit Card</button>
+            </div>
+          </div>
+        </div>
+        
+      </div><!-- row -->
+      
+    </div>
+    
+  </div><!-- mainpanel -->
+  
+  <div class="rightpanel">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs nav-justified">
+        <li class="active"><a href="#rp-alluser" data-toggle="tab"><i class="fa fa-users"></i></a></li>
+        <li><a href="#rp-favorites" data-toggle="tab"><i class="fa fa-heart"></i></a></li>
+        <li><a href="#rp-history" data-toggle="tab"><i class="fa fa-clock-o"></i></a></li>
+        <li><a href="#rp-settings" data-toggle="tab"><i class="fa fa-gear"></i></a></li>
+    </ul>
+        
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane active" id="rp-alluser">
+            <h5 class="sidebartitle">Online Users</h5>
+            <ul class="chatuserlist">
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/userprofile.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Eileen Sideways</strong>
+                            <small>Los Angeles, CA</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user1.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <span class="pull-right badge badge-danger">2</span>
+                            <strong>Zaham Sindilmaca</strong>
+                            <small>San Francisco, CA</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user2.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Nusja Nawancali</strong>
+                            <small>Bangkok, Thailand</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user3.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Renov Leongal</strong>
+                            <small>Cebu City, Philippines</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user4.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Weno Carasbong</strong>
+                            <small>Tokyo, Japan</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+            </ul>
+            
+            <div class="mb30"></div>
+            
+            <h5 class="sidebartitle">Offline Users</h5>
+            <ul class="chatuserlist">
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user5.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Eileen Sideways</strong>
+                            <small>Los Angeles, CA</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user2.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Zaham Sindilmaca</strong>
+                            <small>San Francisco, CA</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user3.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Nusja Nawancali</strong>
+                            <small>Bangkok, Thailand</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user4.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Renov Leongal</strong>
+                            <small>Cebu City, Philippines</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user5.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Weno Carasbong</strong>
+                            <small>Tokyo, Japan</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user4.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Renov Leongal</strong>
+                            <small>Cebu City, Philippines</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user5.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Weno Carasbong</strong>
+                            <small>Tokyo, Japan</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane" id="rp-favorites">
+            <h5 class="sidebartitle">Favorites</h5>
+            <ul class="chatuserlist">
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user2.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Eileen Sideways</strong>
+                            <small>Los Angeles, CA</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user1.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Zaham Sindilmaca</strong>
+                            <small>San Francisco, CA</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user3.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Nusja Nawancali</strong>
+                            <small>Bangkok, Thailand</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user4.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Renov Leongal</strong>
+                            <small>Cebu City, Philippines</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user5.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Weno Carasbong</strong>
+                            <small>Tokyo, Japan</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane" id="rp-history">
+            <h5 class="sidebartitle">History</h5>
+            <ul class="chatuserlist">
+                <li class="online">
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user4.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Eileen Sideways</strong>
+                            <small>Hi hello, ctc?... would you mind if I go to your...</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user2.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Zaham Sindilmaca</strong>
+                            <small>This is to inform you that your product that we...</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+                <li>
+                    <div class="media">
+                        <a href="#" class="pull-left media-thumb">
+                            <img alt="" src="images/photos/user3.png" class="media-object">
+                        </a>
+                        <div class="media-body">
+                            <strong>Nusja Nawancali</strong>
+                            <small>Are you willing to have a long term relat...</small>
+                        </div>
+                    </div><!-- media -->
+                </li>
+            </ul>
+        </div>
+        <div class="tab-pane pane-settings" id="rp-settings">
+            
+            <h5 class="sidebartitle mb20">Settings</h5>
+            <div class="form-group">
+                <label class="col-xs-8 control-label">Show Offline Users</label>
+                <div class="col-xs-4 control-label">
+                    <div class="toggle toggle-success"></div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-xs-8 control-label">Enable History</label>
+                <div class="col-xs-4 control-label">
+                    <div class="toggle toggle-success"></div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-xs-8 control-label">Show Full Name</label>
+                <div class="col-xs-4 control-label">
+                    <div class="toggle-chat1 toggle-success"></div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-xs-8 control-label">Show Location</label>
+                <div class="col-xs-4 control-label">
+                    <div class="toggle toggle-success"></div>
+                </div>
+            </div>
+            
+        </div><!-- tab-pane -->
+        
+    </div><!-- tab-content -->
+  </div><!-- rightpanel -->
+  
+</section>
+
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.min.js"></script>
+<script src="js/jquery.sparkline.min.js"></script>
+<script src="js/toggles.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/jquery.cookies.js"></script>
+
+
+<script src="js/custom.js"></script>
+
+
+</body>
+
+
+</html>
