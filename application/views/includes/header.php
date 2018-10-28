@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 
-  <title>Bracket Responsive Bootstrap3 Admin</title>
+  <title>HMS</title>
 
   <link href="<?php echo base_url(); ?>assets/css/style.default.css" rel="stylesheet">
 

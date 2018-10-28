@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://35.185.102.190/projects/hospital/';
+$config['base_url'] = '';
 
 /*
 |--------------------------------------------------------------------------
