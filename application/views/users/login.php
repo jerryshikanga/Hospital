@@ -27,7 +27,7 @@
             <div class="col-md-7">
                 <div class="signin-info">
                     <div class="logopanel">
-                        <h1><span>[</span> bracket <span>]</span></h1>
+                        <h1><span>[</span> HMS <span>]</span></h1>
                     </div><!-- logopanel -->
                     <div class="mb20"></div>
                     <h5><strong>Welcome to Hospital Management System!</strong></h5>
