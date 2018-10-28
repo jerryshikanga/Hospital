@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <link rel="shortcut icon" href="images/favicon.png" type="image/png">
 
-  <title>Bracket Responsive Bootstrap3 Admin</title>
+  <title>HMS</title>
 
   <link href="<?php echo base_url(); ?>assets/css/style.default.css" rel="stylesheet">
 
@@ -27,7 +27,7 @@
             <div class="col-md-7">
                 <div class="signin-info">
                     <div class="logopanel">
-                        <h1><span>[</span> bracket <span>]</span></h1>
+                        <h1><span>[</span> HMS <span>]</span></h1>
                     </div><!-- logopanel -->
                     <div class="mb20"></div>
                     <h5><strong>Welcome to Hospital Management System!</strong></h5>
@@ -60,7 +60,7 @@
         </div><!-- row -->
         <div class="signup-footer">
             <div class="text-center">
-                &copy; 2016. All Rights Reserved
+                &copy; 2016-<?php echo date("Y"); ?>. All Rights Reserved
             </div>
         </div>
     </div><!-- signin -->
